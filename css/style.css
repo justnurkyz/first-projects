@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+.radio {
+    opacity: 0;
+
+}
+.container {
+    width: 1140px;
+    margin: auto;
+}
+.header-title{
+    text-align: center;
+}
+.tab {
+    font-size: 21px;
+    font-weight: 700;
+    background: #400031;
+    color: #fff;
+    padding: 5px 10px;
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+}
+.conten {
+    display: flex;
+
+}
+.content-2 {
+    display: flex;
+    justify-content: space-between;
+}
+#html:checked ~ .contents.content-1 ,
+#html:checked ~ .contents.content-3 ,
+#html:checked ~ .contents.content-4 {
+    display: none;
+}
+
+#css:checked ~ .contents.content-2 ,
+#css:checked ~ .contents.content-2,
+#css:checked ~ .contents.content-2 {
+    display: none;
+}
+
+#js:checked ~ .contents .content-1 ,
+#js:checked ~ .contents.content-2,
+#js:checked ~ .contents.content-3 {
+    display: none;
+}
